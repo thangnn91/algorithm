@@ -10,7 +10,7 @@ let graph = [[0, 4, 0, 0, 0, 0, 0, 8, 0],
 let src = 0;
 let len = graph.length;
 let max = 2 ** 32;
-var dijstra = function () {
+var dijkstras = function () {
     let dist = [];
     let sptSet = [];
     for (const index in graph) {
